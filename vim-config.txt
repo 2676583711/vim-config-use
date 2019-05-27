@@ -1,0 +1,17 @@
+安装 vim的包管理器　vundle,vundle的git的克隆地址
+
+git clone https://github.com/gmarik/Vundle.vim.git
+
+下一步是在vim的配置文件中进行配置（etc/vim/vimrc）
+filetype off
+  set rtp+=~/.vim/vundle  "rtp+={vundle的存放路径}"
+call vundle#rc()
+
+以上配置已过时，并且这些配置随时空可能过时，所以，实际配置时直接去github上面的官方网址查看
+git clone https://github.com/gmarik/Vundle.vim.git
+
+目前２０１９－５－２８
+　　以前插件是　Bundle '插件地址', vim里面安装命令是  BundleInstall '插件地址' 
+　　现在变成了  Plugin '插件地址', vim里面安装命令是 PluginInstall '插件地址' 
+
+
